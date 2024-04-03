@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.vmware_install_mac_note">
+  <bibliosource><link xl:href="http://www.crifan.com/summary_notation_about_install_mac_on_vmware/">【总结】在VMWare上面安装Mac的注意事项</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+</bibliography>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE preface>
+
+<preface xml:id="preface" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>前言</title>
+
+<sect1 xml:id="purpose"><title>本文目的</title>
+    <para>本文目的是介绍虚拟机软件VMWare方面的基础知识和常见问题。</para>
+
+    <note xml:id="note.rec_virutalbox"><title>推荐使用VirtualBox而不是VMWare</title>
+        <para>简单解释：由于VirtualBox比VMWare更加好用，省资源，所以，更加推荐VirtualBox，而不是VMWare。</para>
+        <para>详解：</para>
+        <itemizedlist>
+            <listitem>关于为何推荐VirtualBox：<link xl:href="http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html#vm_common_soft">常见虚拟机软件介绍</link></listitem>
+            <listitem>关于VirtualBox，不了解的可参考：<link xl:href="http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html">VirtualBox教程</link></listitem>
+            <listitem>而此处之所以还继续写VMWare教程，是因为，只是整理一下之前已经折腾过的一些内容，供有需要的参考，并不会写极其详尽的教程。</listitem>
+        </itemizedlist>
+    </note>
+</sect1>
+
+<sect1 xml:id="prerequisite"><title>前提</title>
+    <para>在看此文之前，你需要对于虚拟机本身，有了相应的了解了。</para>
+    <para>如果不了解虚拟机，请先去参考：</para>
+    <para><link xl:href="http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html">虚拟机教程</link></para>
+</sect1>
+
+</preface>

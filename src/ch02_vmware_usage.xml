@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter xml:id="vmware_usage" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>如何使用VMWare</title>
+
+<para></para>
+
+<para>就像可以用VirtualBox去安装很多不同的虚拟机系统一样，也可以用VMWare来安装很多种虚拟机系统。</para>
+<para>比如安装Mac，XP等等虚拟机。</para>
+<para></para>
+<para></para>
+<para></para>
+
+<sect1 xml:id="vmware_install_mac"><title>用VMWare安装Mac虚拟机</title>
+    <tip xml:id="tip.vmware_usage"><title>相关旧帖</title>
+        <para><link xl:href="http://www.crifan.com/vmware_virtualbox_install_mac_xcode_ios_sdk/">【整理】关于Vmware和VirtualBox上安装Mac，Xcode,iOS SDK等相关资料</link></para>
+        <para><link xl:href="http://www.crifan.com/install_mac_osx_10_7_on_vmware_8/">【记录】在VMware Workstation 8.0.0 build-471780上安装Mac OSX v10.7 Lion的过程 – 1</link></para>
+        <para><link xl:href="http://www.crifan.com/install_mac_10_7_lion_on_vmware_workstation_8/">【记录】在VMware Workstation 8.0.0 build-471780上安装Mac OSX v10.7 Lion的过程 – 2</link></para>
+        <para><link xl:href="http://www.crifan.com/install_mac_os_x_lion_on_vmware_virtual_machine/">【超多图详解】在VMWare虚拟机上安装Mac OS X Lion</link></para>
+        <para><link xl:href="http://www.crifan.com/using_hjmac_boot_up_mac_on_vmware/">【超多图详解】VMWare上安装Mac后，用HJMac引导（第一次）启动Mac的过程</link></para>
+        <para><link xl:href="http://www.crifan.com/summary_notation_about_install_mac_on_vmware/">【总结】在VMWare上面安装Mac的注意事项</link></para>
+        <para><link xl:href="http://www.crifan.com/success_achieved_by_samba_under_windows_xp_and_ubuntu_vmware_shared/">【成功】通过Samba实现Windows XP和VMware下的Ubuntu共享</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_longhorn_system_file_time_out_of_sync_error_code_is_800b0101/">【已解决】用VMWare安装Longhorn出错：Setup has encountered an error(system file time out of sync,error code is 800b0101)</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_under_ubuntu_and_windows_shared_folder_can_not_be/">VMware下Ubuntu不能和Windows共享文件夹</link></para>
+        <para><link xl:href="http://www.crifan.com/install_vmware_tools_problems/">【安装VMware tools遇到的问题】</link></para>
+        <para><link xl:href="http://www.crifan.com/ubuntu810_virtual_machine_in_vmware_65_starter_edition_is_not_the_internet_of_the_solution/">Ubuntu8.10在虚拟机VMWare 6.5精简版不能上网的解决办法</link></para>
+        <para><link xl:href="http://www.crifan.com/successfully_installed_vmhgfs_module_to_achieve_the_shared_folder/">成功安装vmhgfs模块，实现文件夹共享</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_https_port_443_this_port_is_in_use_by_another_program/">【已解决】安装VMWare Workstation期间使用默认的HTTPS Port 443结果出现：This port is in use by another program</link></para>
+        <para><link xl:href="http://www.crifan.com/record_install_vmware_workstation_full/">【记录】安装VMware Workstation</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_8_create_ubuntu_virtual_machine/">【记录】VMWare Workstation 8中创建一个Ubuntu的虚拟机</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_8_install_created_and_configured_13_04_ubuntu_vm/">【记录】VMWare Workstation 8中安装刚创建和配置好的Ubuntu 13.04虚拟机</link></para>
+        <para><link xl:href="http://www.crifan.com/summary_vmware_workstation_8_usage/">【整理】VMWare Workstation 8使用心得</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_8_install_ubuntu/">【记录】VMWare Workstation 8安装Ubuntu</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_ubuntu_file_folder_share/">【记录】VMWare Workstation中实现Win7和Ubuntu虚拟机之间的文件共享</link></para>
+        <para><link xl:href="http://www.crifan.com/wmware_workstation_ubuntu_can_not_share_clipboard_copy_and_paste/">【已解决】VMWare Workstation和Ubuntu之间无法共享（复制和粘贴）剪贴板</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_ubuntu_install_vmware_tools_enter_the_path_to_the_kernel_header_files_for_the_3_8_0_27_generic_kernel/">【未解决】VMware Workstation的Ubuntu虚拟机中安装VMWare Tools出现提示：Enter the path to the kernel header files for the 3.8.0-27-generic kernel?</link></para>
+        <para><link xl:href="http://www.crifan.com/vmware_workstation_vmware_tools_not_good_to_use/">【吐槽】VMWare Workstation中的VMWare Tools还是很不好用啊</link></para>
+        <para><link xl:href="http://www.crifan.com/ubuntu_13_04_vmware_workstation_8_vmware_tools_install_error_vmci_linux_driver_c_implicit_declaration_of_function_devexit_p/">【已 解决】VMware Workstation 8下Ubuntu 13.04中安装VMware Tools出错：/tmp/vmware-root/modules/vmci-only/linux/driver.c:127:4: error: implicit declaration of function ‘__devexit_p’ [-Werror=implicit-function-declaration]</link></para>
+        <para><link xl:href="http://www.crifan.com/continue_investigate_vmware_workstation_8_ubuntu_13_04_folder_share/">【记录】继续折腾VMWare Workstation 8下的虚拟机Ubuntu 13.04中的文件夹共享</link></para>
+    </tip>
+    <para></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+</chapter>

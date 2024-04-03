@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter xml:id="vmware_common_issues" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>VMWare常见问题及解决办法</title>
+
+<tip xml:id="tip.vmware_common_issues"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/to_expand_a_virtual_machine_under_vmware_disk_size_detailed_record_of_the_process_waste_-gtgtgt_get_a_final_and_complete_virtual_machine/">给VMWare下的虚拟机扩充硬盘大小【详细过程记录—>>>最后彻底弄废了虚拟机】</link></para>
+</tip>
+
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>
